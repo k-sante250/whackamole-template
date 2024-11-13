@@ -16,7 +16,7 @@ def main():
                     running = False
             screen.fill("light green")
             pygame.display.flip()
-            clock.tick(60)
+            #clock.tick(60)
     finally:
         pygame.quit()
 
